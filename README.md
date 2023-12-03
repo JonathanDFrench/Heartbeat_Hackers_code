@@ -1,4 +1,4 @@
-## Heartbeat_Hackers_code
+# Heartbeat_Hackers_code
 
 # This program was created by Gabriella Flinn, Jonathan French, and Kruze Peacock to classify EKG data using a decision tree. 
 # It was a part of our final project for BME 3053C Computer Applications for Biomedical Engineerings
