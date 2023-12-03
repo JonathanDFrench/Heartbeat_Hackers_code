@@ -22,8 +22,8 @@ normal_data=readmatrix("ptbdb_normal.csv");
 
 # Visualize data using the mean and plot functions. We also used Fourier Transforms to further visualize the data
 mean_abnormal=mean(abnormal_data); %Find the mean of the abnormal data 
-mean_normal=mean(normal_data); %Find the mean of the normal data 
-x=1:188; %Create x-axis (that correlates to the vector length of normal abnormal data
+mean_normal=mean(normal_data); %Find the mean od the normal data 
+x=1:188; %Create x-axis (that correlates to vector length of normal abnormal data
 figure(1)
 plot(x, mean_abnormal) %Plot mean of abnormal data 
 hold on 
@@ -89,5 +89,5 @@ disp(['Predicted Example Label: ', num2str(predicted_label)]);
 figure;
 plot(example_data)
 title('example ekg')
-xlabel('Time');
-ylabel('Amplitude');
+xlabel('Time (s)');
+ylabel('Amplitude (mV)');
