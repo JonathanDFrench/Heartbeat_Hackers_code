@@ -35,7 +35,7 @@ ylabel('Mean')
 
 ft_abnormal=abs(fft(abnormal_data)); %Fourier transform of abnormal data 
 ft_normal=abs(fft(normal_data)); %Fourier transform of normal dat 
-fs=360; %Sampling frequency 
+fs=1000; %Sampling frequency 
 L=188; %Number of samples 
 Hz=(0:L-1)/L*fs;
 figure(2)
